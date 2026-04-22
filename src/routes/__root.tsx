@@ -39,10 +39,14 @@ export const Route = createRootRoute({
       { title: "Earthbound Brands — A global product, design & licensing agency" },
       { name: "description", content: "Earthbound Brands brings iconic brands to life through licensing, product design, and creative direction." },
       { name: "author", content: "Earthbound Brands" },
-      { property: "og:title", content: "Earthbound Brands — Brands brought to life" },
-      { property: "og:description", content: "A global product, design & licensing agency partnering with the world's most iconic brands." },
+      { property: "og:title", content: "Earthbound Brands — A global product, design & licensing agency" },
+      { property: "og:description", content: "Earthbound Brands brings iconic brands to life through licensing, product design, and creative direction." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Earthbound Brands — A global product, design & licensing agency" },
+      { name: "twitter:description", content: "Earthbound Brands brings iconic brands to life through licensing, product design, and creative direction." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/00bee050-3fb2-4d3b-8567-cfefec54d5f3" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/00bee050-3fb2-4d3b-8567-cfefec54d5f3" },
     ],
     links: [
       {
