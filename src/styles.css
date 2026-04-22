@@ -215,25 +215,15 @@
   .marquee-reverse {
     animation: marquee 40s linear infinite reverse;
   }
-  @keyframes marquee {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
-  }
-
-  @keyframes pulse-brand {
-    0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 70%, transparent); }
-    50%      { box-shadow: 0 0 0 12px color-mix(in oklab, var(--brand) 0%, transparent); }
-  }
   .pulse-brand { animation: pulse-brand 2s ease-out infinite; }
+}
 
-  .grain::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    opacity: 0.06;
-    mix-blend-mode: overlay;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.7'/></svg>");
-  }
-  }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes pulse-brand {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 70%, transparent); }
+  50%      { box-shadow: 0 0 0 12px color-mix(in oklab, var(--brand) 0%, transparent); }
 }
