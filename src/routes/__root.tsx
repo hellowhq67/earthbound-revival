@@ -1,4 +1,5 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+/* Link is used by the 404 component below */
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SmoothScroll } from "@/components/smooth-scroll";
@@ -85,5 +86,4 @@ function RootComponent() {
       </SmoothScroll>
     </ThemeProvider>
   );
-}
 }
